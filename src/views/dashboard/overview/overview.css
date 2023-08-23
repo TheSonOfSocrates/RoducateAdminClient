@@ -1,0 +1,77 @@
+.overview-totalusers-cnt {
+    color: var(--robert-black, #000);
+
+    /* Large-32 */
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.overview-totalusers-txt {
+    color: var(--robert-black-25, rgba(0, 0, 0, 0.25));
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.overview-totalusers-percent {
+    color: var(--green-1, #00AB5F);
+
+    /* text-small */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18.4px;
+}
+
+.overview-totalusers-percent-red {
+    color: var(--green-1, red);
+
+    /* text-small */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18.4px;
+}
+
+.overview-totalusers-device {
+    color: var(--grey-2, #CACACC);
+
+    /* text-small */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18.4px;
+}
+
+.overview-totalusers-device-percent {
+    color: var(--robert-black, #000);
+
+    /* Light/Typography/H6 */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+}
+
+.overview-totalusers-device-user-cnt {
+    color: var(--grey-2, #CACACC);
+
+    /* text-micro */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

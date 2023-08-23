@@ -1,0 +1,13 @@
+.btn-add-more-option {
+    border-radius: 20px;
+    border: 1px solid rgba(129, 114, 234, 0.40);
+    background: rgba(129, 114, 234, 0.06);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.option-item {
+    border-radius: 15px;
+    border: 1px solid #efefef;
+    background: #fdfdfd;
+}

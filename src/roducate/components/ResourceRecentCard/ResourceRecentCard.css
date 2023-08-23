@@ -1,0 +1,51 @@
+.rrc-title {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: normal;
+}
+
+.rrc-des {
+    color: rgba(76, 78, 100, 0.60);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* italic 14 */
+    font-family: Work Sans;
+    font-size: 14px;
+    /*font-style: italic;*/
+    font-weight: 500;
+    line-height: 18.4px; /* 131.429% */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.rrc-level {
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 20px;
+    background: #F8F7FE;
+}
+
+.rrc-username {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-micro */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: normal;
+}

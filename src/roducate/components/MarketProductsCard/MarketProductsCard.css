@@ -1,0 +1,70 @@
+.mrc-title {
+    color: rgba(76, 78, 100, 0.87);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mrc-compare-title {
+    color: #8840E5;
+    text-align: center;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-micro */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mrc-compare-back {
+    border-radius: 64px;
+    background: #F8F7FE;
+}
+
+.mrc-user-cont {
+    color: rgba(76, 78, 100, 0.87);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* web 24 */
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mrc-percent {
+    color: #00C56D;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-small */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18.4px; /* 131.429% */
+}
+
+.mrc-percent-fail {
+    color: #FF4D49;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-small */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18.4px; /* 131.429% */
+}

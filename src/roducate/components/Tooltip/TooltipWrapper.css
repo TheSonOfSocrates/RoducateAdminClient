@@ -1,0 +1,25 @@
+.tooltip-wrapper {
+    margin: auto;
+}
+
+.tooltip-wrapper-box {
+    margin-left: 20px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tooltip-wrapper-box .tooltip-wrapper {
+    border: 0px none;
+    height: 22px;
+    width: 99px;
+}
+
+.tooltip-wrapper-box .design-component-instance-node {
+    background-color: rgba(136, 64, 229, 1) !important;
+}
+
+.tooltip-wrapper-box .tooltip-2 {
+    color: #fff !important;
+}

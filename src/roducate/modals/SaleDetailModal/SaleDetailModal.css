@@ -1,0 +1,51 @@
+.sdm-id {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-large */
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sdm-date {
+    color: var(--grey-1, #747474);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sdm-table-header {
+    color: #2F2F2F;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sdm-table-content {
+    color: var(--grey-1, #747474);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

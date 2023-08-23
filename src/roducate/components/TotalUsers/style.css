@@ -1,0 +1,129 @@
+.totaluser-box {
+    background-color: transparent;
+    justify-content: center;
+}
+
+.totaluser-box .frame-wrapper {
+    border: 0px none;
+    height: 53px;
+    width: 292px;
+}
+
+.totaluser-box .frame {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    left: 0;
+    top: 0;
+    width: fit-content;
+}
+
+.totaluser-box .button {
+    color: rgba(202, 202, 204, 1);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.totaluser-box .unstyled-FAB {
+    align-items: center;
+    background-color: rgba(248, 247, 254, 1);
+    border-radius: 24px;
+    display: flex;
+    gap: 8px;
+    overflow: hidden;
+    padding: 12px 16px;
+    position: relative;
+    width: fit-content;
+}
+
+.totaluser-box .mingcute-user-line {
+    height: 24px !important;
+    min-width: 24px !important;
+    position: relative !important;
+}
+
+.totaluser-box .text-wrapper {
+    color: rgba(89, 45, 181, 1);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.totaluser-box .button-wrapper {
+    align-items: center;
+    border: 1px solid;
+    border-color: rgba(136, 64, 229, 1);
+    border-radius: 21px;
+    display: flex;
+    gap: 10px;
+    padding: 5px 10px;
+    position: relative;
+    width: fit-content;
+}
+
+.totaluser-box .div {
+    color: rgba(136, 64, 229, 1);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.total-users-app-downloads {
+    color: rgba(0, 0, 0, 0.50);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.total-users-cnt {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+    font-family: Work Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.total-users-title {
+    color: #000;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.total-users-type-cnt {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 66.667% */
+}

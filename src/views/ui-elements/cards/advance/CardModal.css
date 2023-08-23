@@ -1,0 +1,25 @@
+.congs-name {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* web 24 */
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: normal;
+}
+
+.congs-recent-news {
+    color: rgba(76, 78, 100, 0.60);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off!important;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px!important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

@@ -1,0 +1,19 @@
+.ModalAddLevel-title {
+    color: #2F2F2F;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ModalAddLevel-sub-title {
+    color: #747474;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

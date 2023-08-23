@@ -1,0 +1,58 @@
+.create-dialog {
+    align-items: center;
+    background-color: var(--lightbackgroundpaper);
+    border-color: var(--lightotherdivider);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 22px 24px 24px;
+    position: relative;
+}
+
+.create-dialog .div-2 {
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 99.76px;
+    min-width: 99.76px;
+    position: relative;
+}
+
+.create-dialog .marketing-automation {
+    align-self: stretch;
+    color: #000000;
+    font-family: var(--text-extra-large-font-family);
+    font-size: var(--text-extra-large-font-size);
+    font-style: var(--text-extra-large-font-style);
+    font-weight: var(--text-extra-large-font-weight);
+    letter-spacing: var(--text-extra-large-letter-spacing);
+    line-height: var(--text-extra-large-line-height);
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.create-dialog .list {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.create-dialog .list-item {
+    align-self: stretch !important;
+    width: unset !important;
+    cursor: pointer;
+}
+
+.create-dialog .list-item:hover {
+    background-color: #eeebff;
+    border-radius: 10px;
+}
+
+.create-dialog .icon-instance-node {
+    height: 24px !important;
+    min-width: 24px !important;
+    position: relative !important;
+}

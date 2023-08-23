@@ -1,0 +1,22 @@
+.SelectListModal-title {
+    color: var(--grey-1, #747474);
+
+    /* text-small */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18.4px;
+}
+
+.SelectListModal-sub-title {
+    color: var(--grey-1, #747474);
+    text-align: left;
+
+    /* text-micro */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

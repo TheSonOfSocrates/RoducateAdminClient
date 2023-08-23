@@ -1,0 +1,13 @@
+.uppy-DragDrop-inner {
+    padding: 10px;
+    border: 1px dashed #979797;
+    border-radius: 7px;
+    justify-content: center;
+    display: grid;
+}
+
+.uppy-DragDrop-inner svg {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}

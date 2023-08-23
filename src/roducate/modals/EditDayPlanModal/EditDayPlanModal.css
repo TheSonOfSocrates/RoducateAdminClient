@@ -1,0 +1,76 @@
+.ModalAddLevel-title {
+    color: #2F2F2F;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ModalAddLevel-sub-title {
+    color: #747474;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ed-sub-title1 {
+    color: var(--grey-2, #CACACC);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-micro */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ed-add-title {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.add-st-wrapper {
+    display: flex;
+    padding: 20px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 10px;
+    background: #F8F7FE;
+}
+
+.day-plan-examcode {
+    color: #8840E5;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* italic 14 */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18.4px; /* 131.429% */
+}
+
+.day-mock-card {
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #E1DCFD;
+}

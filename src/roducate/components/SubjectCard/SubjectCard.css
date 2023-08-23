@@ -1,0 +1,120 @@
+.subject-card-title {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.subject-card-des {
+    color: rgba(76, 78, 100, 0.60);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* italic 14 */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18.4px; /* 131.429% */
+}
+
+.subject-card-category {
+    color: var(--grey-2, #CACACC);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-small */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18.4px; /* 131.429% */
+}
+
+.subject-card-time {
+    color: var(--grey-1, #747474);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* tiny-2 */
+    font-family: Work Sans;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.subject-card-level {
+    color: var(--grey-1, #747474);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-micro */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.subject-card-cnt {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* new-head-small */
+    font-family: Bauziet;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subject-card-username {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-micro */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+.subject-card-play {
+    border-radius: 19px;
+    background: #8840E5;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.subject-card-play {
+    border-radius: 19px;
+    background: #8840E5;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+.property-icon {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+  position: relative;
+  width: 467px;
+}
+
+.property-icon .frame {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.property-icon .text-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding: 6px 0px;
+  position: relative;
+  width: 277px;
+}
+
+.property-icon .subjects {
+  align-self: stretch;
+  color: #000000;
+  font-family: var(--text-medium-bold-font-family);
+  font-size: var(--text-medium-bold-font-size);
+  font-style: var(--text-medium-bold-font-style);
+  font-weight: var(--text-medium-bold-font-weight);
+  letter-spacing: var(--text-medium-bold-letter-spacing);
+  line-height: var(--text-medium-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.property-icon .create-subject-name {
+  align-self: stretch;
+  color: var(--grey-1);
+  font-family: var(--italic-14-font-family);
+  font-size: var(--italic-14-font-size);
+  font-style: var(--italic-14-font-style);
+  font-weight: var(--italic-14-font-weight);
+  letter-spacing: var(--italic-14-letter-spacing);
+  line-height: var(--italic-14-line-height);
+  position: relative;
+}
+
+.property-icon .mingcute-right-dot-3 {
+  min-width: 24px !important;
+  position: relative !important;
+  width: unset !important;
+}
+
+.property-icon .mingcute-live-photo {
+  height: 24px !important;
+  min-width: 24px !important;
+  position: relative !important;
+}

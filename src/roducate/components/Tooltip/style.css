@@ -1,0 +1,164 @@
+.rtooltip {
+  align-items: center;
+  box-shadow: black;
+  display: flex;
+  position: relative;
+  width: fit-content;
+}
+
+.rtooltip .arrow {
+  position: relative;
+}
+
+.rtooltip .my-tooltip-wrapper {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 6px;
+  display: flex;
+  overflow: hidden;
+  padding: 4px 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.rtooltip .my-tooltip {
+  color: rgba(0, 0, 0, 1);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.rtooltip .div-wrapper {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 6px;
+  display: flex;
+  overflow: hidden;
+  padding: 4px 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.rtooltip .text-wrapper {
+  color: rgba(0, 0, 0, 1);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.rtooltip .img {
+  position: relative;
+}
+
+.rtooltip.up {
+  flex-direction: column;
+}
+
+.rtooltip.down {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rtooltip.left .arrow {
+  height: 12px;
+  min-width: 6px;
+}
+
+.rtooltip.up .arrow {
+  height: 6px;
+  min-width: 12px;
+}
+
+.rtooltip.right .arrow {
+  height: 6px;
+  min-width: 12px;
+}
+
+.rtooltip.none .arrow {
+  height: 6px;
+  min-width: 12px;
+}
+
+.rtooltip.down .arrow {
+  height: 6px;
+  min-width: 12px;
+}
+
+.rtooltip.left .my-tooltip {
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: normal;
+}
+
+.rtooltip.up .my-tooltip {
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: normal;
+}
+
+.rtooltip.right .my-tooltip {
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: normal;
+}
+
+.rtooltip.none .my-tooltip {
+  font-family: "Inter", Helvetica;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.rtooltip.down .my-tooltip {
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: normal;
+}
+
+.rtooltip.down .div-wrapper {
+  justify-content: center;
+}
+
+.rtooltip.left .img {
+  height: 6px;
+  min-width: 12px;
+}
+
+.rtooltip.up .img {
+  height: 6px;
+  min-width: 12px;
+}
+
+.rtooltip.right .img {
+  height: 12px;
+  min-width: 6px;
+}
+
+.rtooltip.none .img {
+  height: 6px;
+  min-width: 12px;
+}
+
+.rtooltip.down .img {
+  height: 6px;
+  min-width: 12px;
+}

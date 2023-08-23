@@ -1,0 +1,64 @@
+*::-webkit-scrollbar {
+    width: 8px !important; /* width of the entire scrollbar */
+    height: 8px !important;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent !important; /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #999 !important; /* color of the scroll thumb */
+    border-radius: 10px !important; /* roundness of the scroll thumb */
+}
+
+.btn.btn-gradient-primary {
+    background-image: unset !important;
+    display: flex;
+    height: 50px;
+    min-width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #8840E5;
+}
+
+.btn.btn-primary {
+    border-radius: 24px;
+    background: #8840E5 !important;
+}
+
+.btn.btn-outline-danger {
+    border-radius: 24px;
+}
+
+.datatable-first-column {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: normal;
+}
+
+.datatable-primary-color {
+    color: #8840E5;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.datatable-id-column {
+    color: #1E63EE
+}

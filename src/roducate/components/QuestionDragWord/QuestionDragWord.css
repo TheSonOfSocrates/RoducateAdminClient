@@ -1,0 +1,31 @@
+.btn-add-more-option {
+    border-radius: 20px;
+    border: 1px solid rgba(129, 114, 234, 0.40);
+    background: rgba(129, 114, 234, 0.06);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.qdw-option {
+    border-radius: 20px;
+    background: #FAFAFA;
+    padding: 10px 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.dnd-answers {
+    list-style: none;
+    padding-left: 0;
+}
+
+.dnd-answers li {
+    display: flex;
+    align-items: center;
+    border: solid 1px #d0d0d0;
+    border-radius: 20px;
+    background: #FAFAFA;
+    padding: 10px 20px;
+    color: black;
+    margin-bottom: 10px;
+}

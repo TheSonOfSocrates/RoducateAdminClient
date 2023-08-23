@@ -1,0 +1,74 @@
+.sale-persent {
+    color: var(--green, #00BF6F);
+    font-feature-settings: 'salt' on;
+
+    /* 16 */
+    font-family: DM Sans;
+    font-size: 16.033px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sale-total-sales {
+    color: rgba(76, 78, 100, 0.60);
+    font-feature-settings: 'salt' on;
+
+    /* 16 */
+    font-family: DM Sans;
+    font-size: 16.033px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sale-sale-overview {
+    color: var(--robert-black, #000);
+    font-feature-settings: 'salt' on;
+
+    /* 18 */
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20.042px; /* 111.343% */
+}
+
+.sale-sub-overview {
+    color: #000;
+
+    /* 24 medum */
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sale-sub-cus {
+    color: #BBBFC2;
+    font-feature-settings: 'salt' on;
+
+    /* 14-medium */
+    font-family: DM Sans;
+    font-size: 14.029px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20.042px; /* 142.857% */
+}
+
+.table-duration-text {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0.88) 100%), #72E128;
+    color: var(--green-1, #00AB5F);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-micro */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 5px
+}

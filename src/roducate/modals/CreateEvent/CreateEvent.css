@@ -1,0 +1,67 @@
+.add-event-title {
+    color: var(--grey-1, #747474);
+
+    /* text-micro */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.event-activeComment {
+    color: #2F2F2F;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.event-activeDescription {
+    color: var(--grey-1, #747474);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.event-videos-gallery {
+    color: #000;
+
+    /* new-head-3 */
+    font-family: Bauziet;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: auto;
+}
+
+.add-event-gallery-title {
+    color: #2F2F2F;
+
+    /* text-medium-bold */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.add-event-gallery-ext {
+    color: #8840E5;
+
+    /* text-small */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18.4px;
+}

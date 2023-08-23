@@ -1,0 +1,14 @@
+.rm-issue-title {
+    color: var(--grey-1, #747474);
+    text-align: center;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* dialog-title */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}

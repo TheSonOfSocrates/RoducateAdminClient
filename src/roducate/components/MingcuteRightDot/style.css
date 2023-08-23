@@ -1,0 +1,42 @@
+.mingcute-right-dot {
+  height: 24px;
+  width: 24px;
+}
+
+.mingcute-right-dot .group {
+  height: 12px;
+  left: 6px;
+  position: relative;
+  top: 6px;
+  width: 12px;
+}
+
+.mingcute-right-dot .ellipse {
+  background-color: var(--robert-black);
+  border-radius: 2px;
+  height: 4px;
+  left: 8px;
+  position: absolute;
+  top: 0;
+  width: 4px;
+}
+
+.mingcute-right-dot .div {
+  background-color: var(--robert-black);
+  border-radius: 2px;
+  height: 4px;
+  left: 8px;
+  position: absolute;
+  top: 8px;
+  width: 4px;
+}
+
+.mingcute-right-dot .ellipse-2 {
+  background-color: var(--robert-black);
+  border-radius: 2px;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 4px;
+}

@@ -1,0 +1,1 @@
+export { MingcuteRightDot } from "./MingcuteRightDot";

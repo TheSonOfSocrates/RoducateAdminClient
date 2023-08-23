@@ -1,0 +1,67 @@
+.add-subscription-title {
+    color: var(--grey-1, #747474);
+    text-align: center;
+
+    /* text-micro */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.media-activeComment {
+    color: #2F2F2F;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.media-activeDescription {
+    color: var(--grey-1, #747474);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.media-videos-gallery {
+    color: #000;
+
+    /* new-head-3 */
+    font-family: Bauziet;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: auto;
+}
+
+.add-subscription-gallery-title {
+    color: #2F2F2F;
+
+    /* text-medium-bold */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.add-subscription-gallery-ext {
+    color: #8840E5;
+
+    /* text-small */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18.4px;
+}

@@ -1,0 +1,20 @@
+.box {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.box .textfield-outlined-wrapper {
+    border: 0px none;
+    height: 50px;
+    overflow-x: hidden;
+    width: 292px;
+}
+
+.box .textfield-outlined {
+    border-color: rgba(241, 241, 243, 1) !important;
+    left: 0 !important;
+    top: 0 !important;
+}

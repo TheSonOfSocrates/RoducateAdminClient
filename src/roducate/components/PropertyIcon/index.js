@@ -1,0 +1,1 @@
+export { PropertyIcon } from "./PropertyIcon";

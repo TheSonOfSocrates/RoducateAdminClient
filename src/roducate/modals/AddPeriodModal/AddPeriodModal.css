@@ -1,0 +1,11 @@
+.add-subject-title {
+    color: var(--grey-1, #747474);
+    text-align: center;
+
+    /* text-micro */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

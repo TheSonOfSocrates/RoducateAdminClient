@@ -1,0 +1,1 @@
+export { MingcuteCellphoneLine } from "./MingcuteCellphoneLine";

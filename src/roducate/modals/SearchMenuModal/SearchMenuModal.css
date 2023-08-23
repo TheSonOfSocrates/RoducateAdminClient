@@ -1,0 +1,31 @@
+.smm-menu-label {
+    color: var(--grey-1, #747474);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-medium-bold */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.smm-menu-title {
+    color: var(--grey-1, #747474);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-micro */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.smm-search-input:focus {
+    border: 0;
+    background: transparent;
+    background-color: transparent;
+}

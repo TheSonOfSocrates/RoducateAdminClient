@@ -1,0 +1,391 @@
+.select-outlined {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+  width: 220px;
+}
+
+.select-outlined .input {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 12px;
+  position: relative;
+}
+
+.select-outlined .label-container {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  gap: 10px;
+  height: 2px;
+  padding: 0px 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.select-outlined .label {
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.select-outlined .div {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  position: relative;
+}
+
+.select-outlined .adornment-start {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.select-outlined .instance-node {
+  height: 24px !important;
+  min-width: 24px !important;
+  position: relative !important;
+}
+
+.select-outlined .value {
+  flex: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.select-outlined .arrow {
+  align-items: flex-start;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.select-outlined .value-2 {
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+
+.select-outlined .helper-text {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 14px;
+  position: relative;
+}
+
+.select-outlined .helper-text-i {
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.select-outlined .active {
+  border: 2px solid;
+  border-color: #656cff;
+}
+
+.select-outlined .helper-text-true {
+  border-radius: 8px;
+}
+
+.select-outlined .disabled {
+  border: 1px solid;
+  border-color: #4c4e6438;
+}
+
+.select-outlined .small {
+  border-radius: 8px;
+}
+
+.select-outlined .inactive {
+  border: 1px solid;
+  border-color: #4c4e6438;
+}
+
+.select-outlined .has-value-false {
+  border-radius: 8px;
+}
+
+.select-outlined .error {
+  border: 1px solid;
+  border-color: #ff4c49;
+}
+
+.select-outlined .prefix-true {
+  border-radius: 8px;
+}
+
+.select-outlined .medium.has-value-true.prefix-false.helper-text-false {
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.select-outlined .state-2-inactive {
+  color: #4c4e6499;
+}
+
+.select-outlined .state-2-active {
+  color: #4c4e6499;
+}
+
+.select-outlined .state-2-error {
+  color: #ff4c49;
+}
+
+.select-outlined .state-2-disabled {
+  color: #4c4e6461;
+}
+
+.select-outlined .input.active .label {
+  color: #656cff;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  line-height: 12px;
+  margin-bottom: -4px;
+  margin-top: -6px;
+}
+
+.select-outlined .input.helper-text-true .label {
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  line-height: 12px;
+  margin-bottom: -4px;
+  margin-top: -6px;
+}
+
+.select-outlined .input.disabled .label {
+  color: #4c4e6461;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  line-height: 12px;
+  margin-bottom: -4px;
+  margin-top: -6px;
+}
+
+.select-outlined .input.small .label {
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  line-height: 12px;
+  margin-bottom: -4px;
+  margin-top: -6px;
+}
+
+.select-outlined .input.inactive .label {
+  color: #4c4e6499;
+}
+
+.select-outlined .input.prefix-true .label {
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  line-height: 12px;
+  margin-bottom: -4px;
+  margin-top: -6px;
+}
+
+.select-outlined .input.error .label {
+  color: #ff4c49;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  line-height: 12px;
+  margin-bottom: -4px;
+  margin-top: -6px;
+}
+
+.select-outlined .input.medium.inactive.prefix-false.helper-text-false .label {
+  font-family: var(--text-small-font-family);
+  font-size: var(--text-small-font-size);
+  font-style: var(--text-small-font-style);
+  font-weight: var(--text-small-font-weight);
+  letter-spacing: var(--text-small-letter-spacing);
+  line-height: var(--text-small-line-height);
+  margin-bottom: -7.5px;
+  margin-top: -9.5px;
+  background: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.select-outlined .input.has-value-true.medium .div {
+  padding: 5px 0px 5px 5px;
+}
+
+.select-outlined .input.medium.prefix-true .div {
+  padding: 15px 0px 15px 5px;
+}
+
+.select-outlined .input.small.has-value-true.error .div {
+  padding: 7px 0px 7px 5px;
+}
+
+.select-outlined .input.small.active.prefix-false .div {
+  padding: 7px 0px 7px 5px;
+}
+
+.select-outlined .input.small.has-value-true.prefix-false .div {
+  padding: 7px 0px 7px 5px;
+}
+
+.select-outlined .input.helper-text-true.small.has-value-true .div {
+  padding: 7px 0px 7px 5px;
+}
+
+.select-outlined .input.active.medium.helper-text-false .div {
+  padding: 15px 0px 15px 5px;
+}
+
+.select-outlined .input.small.error.prefix-true .div {
+  padding: 7px 0px 7px 5px;
+}
+
+.select-outlined .input.helper-text-true.small.prefix-true .div {
+  padding: 7px 0px 7px 5px;
+}
+
+.select-outlined .input.helper-text-true.small.active .div {
+  padding: 7px 0px 7px 5px;
+}
+
+.select-outlined .input.small.error.has-value-false.prefix-false .div {
+  padding: 8px 0px 8px 5px;
+}
+
+.select-outlined .input.medium.disabled.has-value-false.prefix-false .div {
+  padding: 16px 0px 16px 5px;
+}
+
+.select-outlined .input.inactive.small.has-value-false.prefix-true .div {
+  padding: 7px 0px 7px 5px;
+}
+
+.select-outlined .input.inactive.small.has-value-false.prefix-false .div {
+  padding: 8px 0px 8px 5px;
+}
+
+.select-outlined .input.medium.inactive.has-value-false.prefix-false .div {
+  padding: 16px 0px 16px 5px;
+}
+
+.select-outlined .input.prefix-true.small.active.helper-text-false .div {
+  padding: 7px 0px;
+}
+
+.select-outlined .input.small.disabled.has-value-false.prefix-false .div {
+  padding: 8px 0px 8px 5px;
+}
+
+.select-outlined .input.prefix-true.small.disabled.helper-text-false .div {
+  padding: 7px 0px;
+}
+
+.select-outlined .input.inactive.prefix-true.helper-text-false.has-value-true.small .div {
+  padding: 7px 0px;
+}
+
+.select-outlined .input.error.medium.prefix-false.helper-text-false.has-value-false .div {
+  padding: 16px 0px 16px 5px;
+}
+
+.select-outlined .input.helper-text-true.active.medium.prefix-false.has-value-false .div {
+  padding: 15px 0px;
+}
+
+.select-outlined .input.helper-text-true.error.prefix-false.medium.has-value-false .div {
+  padding: 16px 0px;
+}
+
+.select-outlined .input.disabled .value {
+  color: #4c4e6461;
+}
+
+.select-outlined .input.inactive.has-value-false .value {
+  color: #4c4e6499;
+}
+
+.select-outlined .input.active.has-value-true .value {
+  color: #4c4e64de;
+}
+
+.select-outlined .input.inactive.has-value-true .value {
+  color: #4c4e64de;
+}
+
+.select-outlined .input.has-value-true.error .value {
+  color: #4c4e64de;
+}
+
+.select-outlined .input.active.medium .value {
+  color: #4c4e64de;
+}
+
+.select-outlined .input.error.has-value-false.prefix-false .value {
+  color: #4c4e6499;
+}
+
+.select-outlined .input.small.has-value-false.active .value {
+  color: #4c4e6499;
+}
+
+.select-outlined .input.has-value-false.error.helper-text-false .value {
+  color: #4c4e6499;
+}
+
+.select-outlined .input.helper-text-true.has-value-false.error.prefix-true .value {
+  color: #ff4c49;
+}
+
+.select-outlined .input.medium .value-2 {
+  color: #4c4e64de;
+  font-family: var(--text-medium-font-family);
+  font-size: var(--text-medium-font-size);
+  font-style: var(--text-medium-font-style);
+  font-weight: var(--text-medium-font-weight);
+  letter-spacing: var(--text-medium-letter-spacing);
+  line-height: var(--text-medium-line-height);
+}
+
+.select-outlined .input.small .value-2 {
+  color: var(--grey-1);
+  font-family: var(--text-medium-bold-font-family);
+  font-size: var(--text-medium-bold-font-size);
+  font-style: var(--text-medium-bold-font-style);
+  font-weight: var(--text-medium-bold-font-weight);
+  letter-spacing: var(--text-medium-bold-letter-spacing);
+  line-height: var(--text-medium-bold-line-height);
+}

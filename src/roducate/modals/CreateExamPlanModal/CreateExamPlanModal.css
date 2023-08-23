@@ -1,0 +1,65 @@
+.ModalAddLevel-title {
+    color: #2F2F2F;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ModalAddLevel-sub-title {
+    color: #747474;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.day-plan-card {
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #E1DCFD;
+    background: #F8F7FE;
+}
+
+.day-plan-title {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-tiny */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.day-plan-sub {
+    color: rgba(76, 78, 100, 0.60);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* italic 14 */
+    font-family: Work Sans;
+    font-size: 14px;
+    /*font-style: italic;*/
+    font-weight: 500;
+    line-height: 18.4px; /* 131.429% */
+}
+
+.day-edit-button {
+    color: #8840E5;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-tiny */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

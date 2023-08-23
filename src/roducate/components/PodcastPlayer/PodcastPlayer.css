@@ -1,0 +1,129 @@
+.video-player {
+    position: relative;
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+.video-player video {
+    width: 100%;
+}
+
+.controls {
+    width: 40%;
+    border-radius: 7px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.controls button,
+.controls input[type="range"],
+.controls span {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.controls button:hover,
+.controls input[type="range"]:hover {
+    opacity: 0.8;
+}
+
+.controls button:active,
+.controls input[type="range"]:active {
+    opacity: 0.6;
+}
+
+.controls button.active {
+    color: #00ccff;
+}
+
+.controls input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.controls input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #00ccff;
+    cursor: pointer;
+}
+
+.controls input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #00ccff;
+    cursor: pointer;
+}
+
+.controls span {
+    font-weight: bold;
+}
+
+.controls .active-icon {
+    color: #00ccff;
+}
+
+.controls .inactive-icon {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.vp-title {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.vp-description {
+    color: rgba(76, 78, 100, 0.60);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* italic 14 */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18.4px; /* 131.429% */
+}
+
+.vp-time {
+    color: #2F2F2F;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-micro */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.vp-play-ctl-btn {
+    border-radius: 19px;
+    background: #8840E5;
+    border: 0
+}

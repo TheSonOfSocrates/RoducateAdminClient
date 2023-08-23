@@ -1,0 +1,67 @@
+import {Button, Modal, ModalBody} from "reactstrap";
+import {useDispatch, useSelector} from "react-redux";
+import {showSelectLanguageModal} from '@store/actions/modal'
+import './LanguageSelectModal.css'
+import {useState} from "react";
+import Swal from 'sweetalert2'
+import withReactContent from "sweetalert2-react-content";
+import {SingleSelect} from "../../components/SingleSelect/SingleSelect";
+import {setCurrentLanguage} from "../../../redux/actions/layout";
+
+export const LanguageSelectModal = ({title, onSelected}) => {
+
+    const store = useSelector(state => state.modal)
+    const dispatch = useDispatch()
+
+    const [selectedTitle, setSelectedTitle] = useState('')
+
+    const MySwal = withReactContent(Swal)
+
+    const [languageTypes, setLanguageTypes] = useState([{title: 'English', id: 'English'},
+        {title: 'Yoruba', id: 'Yoruba'}, {title: 'Hausa', id: 'Hausa'}, {title: 'Igbo', id: 'Igbo'}, {
+            title: 'French',
+            id: 'French'
+        }])
+
+    const [id, setId] = useState('');
+
+    const onItemSelected = (title) => {
+        setSelectedTitle(title)
+    }
+
+    const onFinalSelect = () => {
+        if (selectedTitle === '') {
+            MySwal.fire({
+                title: 'Error',
+                text: 'Please select one',
+                icon: 'error',
+                timer: 2000,
+                customClass: {
+                    confirmButton: 'btn btn-danger'
+                },
+                buttonsStyling: false
+            })
+            return
+        }
+        dispatch(setCurrentLanguage(selectedTitle))
+        dispatch(showSelectLanguageModal())
+    }
+
+    return (
+        <Modal toggle={() => dispatch(showSelectLanguageModal())}
+               isOpen={store.showSelectLanguageModal}
+               className="modal-dialog-centered modal-sm"
+        >
+            <ModalBody toggle={() => dispatch(showSelectLanguageModal())}>
+                <h1 className="SelectListModal-title mt-2 mb-2">{title}</h1>
+
+                <SingleSelect selectedId={id} data={languageTypes} onSelected={onItemSelected}
+                              displayField='title' idField='id'/>
+
+                <div className="d-flex justify-content-center mt-1">
+                    <Button color='gradient-primary' onClick={onFinalSelect}>Select</Button>
+                </div>
+            </ModalBody>
+        </Modal>
+    );
+};

@@ -1,0 +1,25 @@
+.SelectOutlined-box {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.SelectOutlined-box .select-outlined-wrapper {
+  border: 0px none;
+  height: 46px;
+  width: 100%;
+}
+
+.SelectOutlined-box .select-outlined-instance {
+  width: 100%;
+}
+
+.SelectOutlined-box .design-component-instance-node {
+  color: var(--grey-1) !important;
+}
+
+.SelectOutlined-box .select-outlined-2 {
+  color: var(--robert-black) !important;
+}

@@ -1,0 +1,14 @@
+.riconbtn-wrapper {
+    background-color: #ece9ff;
+    border-radius: 30px;
+    display: flex;
+    overflow: hidden;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.riconbtn-text-wrapper {
+    color: black;
+    margin: auto;
+    padding-right: 10px;
+}

@@ -1,0 +1,101 @@
+.ModalAddLevel-title {
+    color: #2F2F2F;
+
+    /* text-medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ModalAddLevel-sub-title {
+    color: #747474;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.profile-name {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* web 24 */
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.edit-btn {
+    border-radius: 8px;
+    border: 1px solid rgba(109, 120, 141, 0.50);
+    padding: 7px 10px;
+}
+
+.profile-act-pan {
+    border-radius: 15px;
+    background: #F8F7FE;
+}
+
+.edit-day-change {
+    border-radius: 22px;
+    border: 1px solid #E1DCFD;
+    padding: 7px 10px;
+    color: #925FF0;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-small */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18.4px; /* 131.429% */
+}
+
+.profile-table-header {
+    color: #969696;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* tiny-11 */
+    font-family: Work Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.profile-first-col {
+    overflow: hidden;
+    color: #292D32;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+    text-overflow: ellipsis;
+    whitespace: nowrap;
+
+    /* text-small */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18.4px; /* 131.429% */
+}
+
+.profile-last-col {
+    color: #8840E5;
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+    /* text-small-bold */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

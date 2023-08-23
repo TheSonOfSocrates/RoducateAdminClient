@@ -1,0 +1,29 @@
+.AddCreator-creator {
+    display: grid;
+    text-align: center;
+}
+
+.AddCreator-title {
+    color: var(--robert-black, #000);
+    font-kerning: none;
+    font-feature-settings: 'clig' off, 'calt' off, 'liga' off;
+
+/* text-large */
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.AddCreator-creators:hover .AddCreator-creator {
+    margin-left: 5px !important;
+}
+
+.AddCreator-creators:hover .AddCreator-name {
+    display: block !important;
+}
+
+.AddCreator-creators:hover .AddCreator-avatar {
+    transform: scale(0.6) !important;
+}
