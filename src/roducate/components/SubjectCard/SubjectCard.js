@@ -10,7 +10,7 @@ const SubjectCard = ({subject = undefined}) => {
     return (
         <div style={{width: '300px', height: '100%', backgroundColor: 'white', padding: '15px', borderRadius: '10px'}}>
             {subject?.thumbnail && <img style={{width: '100%', height: '150px', borderRadius: '10px'}}
-                                        src={`${process.env.REACT_APP_3BUCKET_URL}Account_Uploads/${subject?.thumbnail}?version=${Math.floor(Math.random() * 50000) + 1}`}/>}
+                                        src={`${process.env.REACT_APP_3BUCKET_URL}${subject?.thumbnail}?version=${Math.floor(Math.random() * 50000) + 1}`}/>}
             <p className="subject-card-title mt-1">{subject?.title}</p>
             <div className="d-flex justify-content-between">
                 <div>

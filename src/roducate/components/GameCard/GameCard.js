@@ -10,7 +10,7 @@ const GameCard = ({game = undefined}) => {
     return (
         <div style={{width: '250px', backgroundColor: 'white', padding: '8px', borderRadius: '10px'}}>
             {game?.thumbnail && <img style={{width: '100%', height: '150px', borderRadius: '10px'}}
-                                     src={`${process.env.REACT_APP_3BUCKET_URL}Account_Uploads/${game?.thumbnail}?version=${Math.floor(Math.random() * 50000) + 1}`}/>}
+                                     src={`${process.env.REACT_APP_3BUCKET_URL}${game?.thumbnail}?version=${Math.floor(Math.random() * 50000) + 1}`}/>}
             <p className="game-card-title mt-1">{game?.title}</p>
             <p className="game-card-des">{game?.description ?? 'No description'}</p>
             <div className="d-flex justify-content-between">

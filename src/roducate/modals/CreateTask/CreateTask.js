@@ -187,7 +187,7 @@ export const CreateTask = ({
                                 questionType: 'drag',
                                 options: question?.questionContent?.options.map((item) => ({
                                     ...item,
-                                    title: item.title.split('/')[item.title.split('/').length - 1]
+                                    title: 'Account_Uploads/' + item.fileName
                                 })),
                                 correctAnswers: question?.questionContent?.correctAnswers,
                                 sbsg: question?.sbsg?.id ?? ''
@@ -210,7 +210,7 @@ export const CreateTask = ({
                                 optionType: question.questionContent.optionType,
                                 options: question?.questionContent?.options.map((item) => ({
                                     ...item,
-                                    title: item.title.split('/')[item.title.split('/').length - 1]
+                                    title: 'Account_Uploads/' + item.fileName
                                 })),
                                 correctAnswers: question?.questionContent?.correctAnswers,
                                 sbsg: question?.sbsg?.id ?? ''

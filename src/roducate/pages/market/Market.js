@@ -92,7 +92,7 @@ const Market = () => {
                     <MarketProduct/>
                 </TabPane>
                 <TabPane tabId='categories'>
-                    <Category/>
+                    <Category fetchData={active === 'categories'}/>
                 </TabPane>
             </TabContent>
         </Fragment>

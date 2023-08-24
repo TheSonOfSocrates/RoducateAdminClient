@@ -39,7 +39,7 @@ const BootstrapCheckbox = forwardRef(({onClick, ...rest}, ref) => (
     </div>
 ))
 
-const LevelComp = () => {
+const LevelComp = ({fetchData}) => {
     const dispatch = useDispatch()
     const store = useSelector(state => state.modal)
 
@@ -179,6 +179,12 @@ const LevelComp = () => {
         if (!store.isVisibleAddLevel)
             loadData()
     }, [store.isVisibleAddLevel, pageNumber, pageSize, sort])
+
+    useEffect(async () => {
+        if (dataList.length === 0 && fetchData) {
+            loadData()
+        }
+    }, [fetchData])
 
     const loadData = async () => {
         dispatch(showLoadingScreen(true))

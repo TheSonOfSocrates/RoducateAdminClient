@@ -40,7 +40,7 @@ const BootstrapCheckbox = forwardRef(({onClick, ...rest}, ref) => (
     </div>
 ))
 
-const TopicComp = () => {
+const TopicComp = ({fetchData}) => {
     const dispatch = useDispatch()
     const store = useSelector(state => state.modal)
 
@@ -184,6 +184,13 @@ const TopicComp = () => {
             loadRecentInfo()
         }
     }, [store.showAddTopicModal, pageNumber, pageSize, sort])
+
+    useEffect(async () => {
+        if (dataList.length === 0 && fetchData) {
+            loadData()
+            loadRecentInfo()
+        }
+    }, [fetchData])
 
     const loadRecentInfo = async () => {
         let response = undefined

@@ -40,13 +40,14 @@ export const AddProduct = ({product, onUpdate}) => {
 
         let result;
         try {
+            console.log(imageList)
             result = await axios.post(link, {
                 title: productName,
                 description: des,
                 productType: selectedProductType.value,
                 price,
                 stockAmount: quantity,
-                images: imageList.map(item => item.title.split('/')[item.title.split('/').length - 1])
+                images: imageList.map(item => 'Account_Uploads/' + item.fileName)
             });
             if (result.status) {
                 await MySwal.fire({
@@ -92,9 +93,9 @@ export const AddProduct = ({product, onUpdate}) => {
     }
 
     const transitionOptions = [
-        {value: 'Device', label: 'Device'},
-        {value: 'Merchandize', label: 'Merchandize'},
-        {value: 'Virtual Product', label: 'Virtual Product'}
+        {value: 'device', label: 'Device'},
+        {value: 'merchandize', label: 'Merchandize'},
+        {value: 'virtual Product', label: 'Virtual Product'}
     ]
 
     const onOptionImgAttached = (images) => {

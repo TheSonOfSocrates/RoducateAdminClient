@@ -17,8 +17,8 @@ import {
     showAddSubjectModal,
     showAddSyllabus,
     showAddTaskModal,
-    showUploadModal,
-    showAddTopicModal
+    showAddTopicModal,
+    showUploadModal
 } from '@store/actions/modal'
 import './Library.css'
 import LibraryComp from "../../components/LibraryComp/LibraryComp";
@@ -214,28 +214,28 @@ const Library = () => {
                     <LibraryComp/>
                 </TabPane>
                 <TabPane tabId='subjects'>
-                    <SubjectComp/>
+                    <SubjectComp fetchData={active === 'subjects'}/>
                 </TabPane>
                 <TabPane tabId='topics'>
-                    <TopicComp/>
+                    <TopicComp fetchData={active === 'topics'}/>
                 </TabPane>
                 <TabPane tabId='tasks'>
-                    <TaskComp/>
+                    <TaskComp fetchData={active === 'tasks'}/>
                 </TabPane>
                 <TabPane tabId='levels'>
-                    <LevelComp/>
+                    <LevelComp fetchData={active === 'levels'}/>
                 </TabPane>
                 <TabPane tabId='period'>
-                    <PeriodComp/>
+                    <PeriodComp fetchData={active === 'period'}/>
                 </TabPane>
                 <TabPane tabId='syllabus'>
-                    <SyllabusComp/>
+                    <SyllabusComp fetchData={active === 'syllabus'}/>
                 </TabPane>
                 <TabPane tabId='sbsg'>
-                    <SBSGComp/>
+                    <SBSGComp fetchData={active === 'sbsg'}/>
                 </TabPane>
                 <TabPane tabId='uploads'>
-                    <UploadComp/>
+                    <UploadComp fetchData={active === 'uploads'}/>
                 </TabPane>
             </TabContent>
         </Fragment>

@@ -11,7 +11,7 @@ const TopicCard = ({topic = undefined}) => {
     return (
         <div style={{width: '300px', height: '100%', backgroundColor: 'white', padding: '15px', borderRadius: '10px'}}>
             {topic?.thumbnail && <img style={{width: '100%', height: '150px', borderRadius: '10px'}}
-                                      src={`${process.env.REACT_APP_3BUCKET_URL}Account_Uploads/${topic?.thumbnail}?version=${Math.floor(Math.random() * 50000) + 1}`}/>}
+                                      src={`${process.env.REACT_APP_3BUCKET_URL}${topic?.thumbnail}?version=${Math.floor(Math.random() * 50000) + 1}`}/>}
             <div className="d-flex align-items-center justify-content-between mb-1">
                 <span className="topic-card-title mt-1">{topic?.title}</span>
                 <svg className="cursor-pointer" width="24" height="24" viewBox="0 0 24 24" fill="none"

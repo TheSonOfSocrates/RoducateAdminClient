@@ -141,7 +141,7 @@ export const CreateTopic = ({topic = undefined, onChange = undefined}) => {
                                     questionType: 'drag',
                                     options: questionItem?.questionContent?.options.map((item) => ({
                                         ...item,
-                                        title: item.title.split('/')[item.title.split('/').length - 1]
+                                        title: 'Account_Uploads/' + item.fileName
                                     })),
                                     correctAnswers: questionItem?.questionContent?.correctAnswers,
                                     sbsg: questionItem?.sbsg?.id ?? ''
@@ -164,7 +164,7 @@ export const CreateTopic = ({topic = undefined, onChange = undefined}) => {
                                     optionType: questionItem.questionContent.optionType,
                                     options: questionItem?.questionContent?.options.map((item) => ({
                                         ...item,
-                                        title: item.title.split('/')[item.title.split('/').length - 1]
+                                        title: 'Account_Uploads/' + item.fileName
                                     })),
                                     correctAnswers: questionItem?.questionContent?.correctAnswers,
                                     sbsg: questionItem?.sbsg?.id ?? ''

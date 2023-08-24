@@ -74,7 +74,7 @@ const Ads = () => {
                 return (
                     <div className="d-flex align-items-center">
                         <img style={{height: '30px', width: '30px', marginRight: 10}}
-                             src={process.env.REACT_APP_3BUCKET_URL + 'Account_Uploads/' + row.images[0]}/>
+                             src={process.env.REACT_APP_3BUCKET_URL + row.images[0]}/>
                     </div>
                 )
             }

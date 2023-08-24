@@ -39,7 +39,7 @@ const BootstrapCheckbox = forwardRef(({onClick, ...rest}, ref) => (
     </div>
 ))
 
-const SyllabusComp = () => {
+const SyllabusComp = ({fetchData}) => {
     const dispatch = useDispatch()
     const store = useSelector(state => state.modal)
 
@@ -172,6 +172,12 @@ const SyllabusComp = () => {
         if (!store.isVisibleAddSyllabus)
             loadData()
     }, [store.isVisibleAddSyllabus, pageNumber, pageSize, sort])
+
+    useEffect(async () => {
+        if (dataList.length === 0 && fetchData) {
+            loadData()
+        }
+    }, [fetchData])
 
     const loadData = async () => {
         dispatch(showLoadingScreen(true))

@@ -61,7 +61,7 @@ export const CreateAds = ({ads, onUpdate}) => {
                 linkURL: link,
                 startDate: new Date(startDate).toUTCString(),
                 endDate: new Date(endDate).toUTCString(),
-                images: imageList.map(item => item.title.split('/')[item.title.split('/').length - 1]),
+                images: imageList.map(item => 'Account_Uploads/' + item.fileName),
                 isMobile,
                 isWeb
             });
